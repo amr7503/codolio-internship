@@ -23,9 +23,41 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://codolio-internship.vercel.app"),
   title: "CodolioSheet - DSA Question Tracker",
   description:
-    "Track your DSA interview preparation progress with the Striver A2Z sheet",
+    "Track your DSA interview preparation progress with the Striver A2Z sheet. A modern, feature-rich web application for managing Data Structures and Algorithms questions.",
+  keywords: ["DSA", "interview preparation", "coding", "algorithms", "data structures", "question tracker"],
+  authors: [{ name: "CodolioSheet Team" }],
+  creator: "CodolioSheet",
+  publisher: "CodolioSheet",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://codolio-internship.vercel.app",
+    title: "CodolioSheet - DSA Question Tracker",
+    description: "Track your DSA interview preparation progress with ease",
+    siteName: "CodolioSheet",
+    images: [
+      {
+        url: "/logo.png",
+        width: 1200,
+        height: 630,
+        alt: "CodolioSheet Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "CodolioSheet - DSA Question Tracker",
+    description: "Track your DSA interview preparation progress with ease",
+    images: ["/logo.png"],
+  },
 };
 
 export const viewport: Viewport = {
