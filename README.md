@@ -7,6 +7,18 @@ A modern, feature-rich web application for tracking Data Structures and Algorith
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
+## 🌐 Live Demo
+
+**[🚀 View Live Application](https://codolio-internship.vercel.app)**
+
+## 📸 Demo Screenshots
+
+### Dashboard Overview
+![Dashboard View](./public/Img1.png)
+
+### Question Management
+![Question Tracking](./public/Img2.png)
+
 ## 🚀 Features
 
 ### Core Functionality
@@ -35,17 +47,7 @@ A modern, feature-rich web application for tracking Data Structures and Algorith
 - **Real-time Statistics**: Live dashboard showing completion rates and progress
 - **Drag-and-Drop Reordering**: Easily reorganize topics with move up/down controls
 
-## 📸 Screenshots
-
-### Dashboard View
-The main dashboard displays all topics with progress tracking and statistics.
-
-### Multiple View Modes
-- **List View**: Traditional vertical layout for detailed viewing
-- **Kanban View**: Grid layout for visual organization
-- **Compact View**: Condensed layout for quick scanning
-
-## 🛠️ Tech Stack
+## ️ Tech Stack
 
 ### Frontend
 - **Framework**: [Next.js 16](https://nextjs.org/) with App Router
@@ -78,10 +80,8 @@ The main dashboard displays all topics with progress tracking and statistics.
 
 2. **Install dependencies**
    ```bash
-   npm install --legacy-peer-deps
+   npm install
    ```
-   
-   *Note: The `--legacy-peer-deps` flag is required due to a peer dependency conflict between `date-fns` and `react-day-picker`.*
 
 3. **Run the development server**
    ```bash
