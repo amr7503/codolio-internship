@@ -1,11 +1,19 @@
-# CodolioSheet - DSA Question Tracker
+<div align="center">
+  <img src="./public/logo.png" alt="CodolioSheet Logo" width="200"/>
+  
+  # CodolioSheet - DSA Question Tracker
+  
+  A modern, feature-rich web application for tracking Data Structures and Algorithms (DSA) interview preparation progress. Built with Next.js 16, TypeScript, and Tailwind CSS.
+</div>
 
-A modern, feature-rich web application for tracking Data Structures and Algorithms (DSA) interview preparation progress. Built with Next.js 16, TypeScript, and Tailwind CSS.
+<div align="center">
 
 ![Next.js](https://img.shields.io/badge/Next.js-16.1.6-black?style=flat-square&logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.7.3-blue?style=flat-square&logo=typescript)
 ![React](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react)
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
+
+</div>
 
 ## 🌐 Live Demo
 
